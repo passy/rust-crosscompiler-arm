@@ -29,6 +29,7 @@ RUN mv /tmp/.cargo $HOME && \
     file \
     curl \
     libssl-dev \
+    liboping0:armhf \
     libssl-dev:armhf && \
   curl https://sh.rustup.rs -sSf | sh /dev/stdin -y && \
   PATH=$PATH:$HOME/.cargo/bin && \

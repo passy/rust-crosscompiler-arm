@@ -1,6 +1,8 @@
 #!/bin/bash
 
-USERNAME=dlecan
+set -ex
+
+USERNAME=passy
 IMAGE_PATH=arm
 IMAGE_NAME=$IMAGE_PATH
 IMAGE=$USERNAME/rust-crosscompiler-arm
