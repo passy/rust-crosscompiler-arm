@@ -7,8 +7,8 @@ IMAGE_PATH=arm
 IMAGE_NAME=$IMAGE_PATH
 IMAGE=$USERNAME/rust-crosscompiler-arm
 
-RUST_CHANNEL=stable
+RUST_VERSION=1.17.0
 
-docker build -t $IMAGE:$RUST_CHANNEL $IMAGE_PATH
+docker build -t $IMAGE:$RUST_VERSION $IMAGE_PATH
 
 docker push $IMAGE
