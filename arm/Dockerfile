@@ -31,7 +31,7 @@ RUN mv /tmp/.cargo $HOME && \
     libssl-dev \
     liboping0:armhf \
     libssl-dev:armhf && \
-  ln -s /usr/lib/arm-linux-gnueabihf/liboping.so.0 /usr/lib/arm-linux-gnueabihf/liboping && \
+  ln -s /usr/lib/arm-linux-gnueabihf/liboping.so.0 /usr/lib/arm-linux-gnueabihf/liboping.so && \
   curl https://sh.rustup.rs -sSf | sh /dev/stdin -y && \
   PATH=$PATH:$HOME/.cargo/bin && \
   rustup target add arm-unknown-linux-gnueabihf && \
