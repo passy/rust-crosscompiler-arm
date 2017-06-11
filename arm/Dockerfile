@@ -1,5 +1,5 @@
 FROM debian:jessie
-MAINTAINER Damien Lecan <dev@dlecan.com>
+MAINTAINER Pascal Hartig <phartig@rdrei.net>
 
 #ENV USER root
 ENV CHANNEL stable
